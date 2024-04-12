@@ -1,0 +1,31 @@
+:root {
+    --primary-color: #ff6347; /* Tomato */
+    --secondary-color: #ffb6c1; /* Light Pink */
+    --text-color: #8b0000; /* Dark Red */
+    --shadow-color: rgba(0, 0, 0, 0.1); /* Shadow color */
+    --border-color: #ffc0cb; /* Pink */
+}
+
+.jumbotron {
+    background-image: url('https://example.com/background-image.jpg'); /* Replace with your background image URL */
+    background-size: cover;
+    background-position: center;
+    color: var(--text-color); /* Dark Red text */
+}
+
+/* Additional CSS styles with adjusted colors */
+.navbar {
+    background-color: var(--primary-color); /* Tomato navbar background */
+}
+
+.card {
+    background-color: var(--secondary-color); /* Light Pink card background */
+}
+
+.btn-primary {
+    background-color: var(--primary-color); /* Tomato button background */
+}
+
+.footer {
+    background-color: var(--secondary-color); /* Light Pink footer background */
+}
